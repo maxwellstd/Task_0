@@ -117,6 +117,7 @@ body{
 	display: flex;
 	border-bottom: 2px solid #f1f1f3;
 	padding-left: 360px; 
+	background-color: aqua;
 }
 .tabs button{
 	width: 240px;
