@@ -45,6 +45,8 @@ body{
 	background-color: #f5fcff;
 	color: #002b41;
 	margin: 0 auto; 
+	display: flex;
+	flex-direction: column;
 }
 /* ШАПКА */
 header{
@@ -152,6 +154,7 @@ header{
 .about_container{
 	display: inline-block;
 	padding: 50px 360px 60px; 
+	align-self: center;
 }
 .about_container > section{
 	margin-bottom: 30px;
@@ -232,6 +235,7 @@ header{
 .photos_container{
 	display: none;
 	padding: 25px 360px; 
+	align-self: center;
 }
 .filter{
 	width: 1200px;
