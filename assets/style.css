@@ -129,7 +129,6 @@ header{
 	display: flex;
 	justify-content: center;
 	border-bottom: 2px solid #f1f1f3;
-	padding-left: 360px; 
 }
 .tabs button{
 	width: 240px;
