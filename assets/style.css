@@ -47,7 +47,15 @@ body{
 	margin: 0 auto; 
 }
 /* ШАПКА */
+header{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 .banner {
+	display: flex;
+	justify-content: center;
 	width: 100%;
 	height: 220px;
 	background-image: url(images/bg_image_top.png);
@@ -57,10 +65,12 @@ body{
 	padding-left: 360px; 
 }
 .preview_container{
-	width: 805px;
+	/*width: 805px;*/
 	height: 180px;
 	position: relative;
 	padding-left: 90px; 
+	display: flex;
+	align-items: center;
 }
 .profile_photo{
 	position: absolute;
@@ -73,8 +83,8 @@ body{
 	width: 710px;
 	height: 100px;
 	position: relative;
-	left: 0px;
-	top: 40px;
+/*	left: 0px;
+	top: 40px;*/
 	background-color: #fff;
 	padding-left: 135px;
 	padding-top: 15px;
@@ -117,7 +127,6 @@ body{
 	display: flex;
 	border-bottom: 2px solid #f1f1f3;
 	padding-left: 360px; 
-	background-color: aqua;
 }
 .tabs button{
 	width: 240px;
